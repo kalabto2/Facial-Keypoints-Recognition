@@ -18,5 +18,15 @@ rm *zip
 ```
 
 ### Requirements + running
-...
-
+Code is in *facePointsRecognitions.ipynb* notebook. 
+In following code snippet is process of running jupyter notebook in virtual environment.
+```
+python3 -m venv venv
+source venv/bin/activate
+python3 -m pip install -r requirements.txt
+python3 -m jupyter notebook
+```
+Environment can be deactivated by:
+```
+deactivate
+```
